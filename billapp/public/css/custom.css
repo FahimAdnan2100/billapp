@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+}
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    width: 20em;
+    height: 2rem;
+    border-radius: 10px;
+
+  }
+  hr{
+    height: 5px;
+    background-color: rgb(4, 0, 255);
+    border: none;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.cust{
+  border: 1px solid rgb(48, 44, 44);
+  width: 20px;
+  height: 40px;
+}
+.ccc{
+  float: right;
+}

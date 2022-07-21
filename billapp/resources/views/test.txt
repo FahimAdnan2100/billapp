@@ -1,0 +1,19 @@
+
+               // function getPName(){
+    var productId=value.productId;
+    //console.log(productId);
+    var nid = [];
+            $.ajax({
+                type:'get',
+                dataType:'json',
+                 data:{productId:productId},
+                url:'/pname',
+                success:function(response1){
+                    console.log(response1)
+
+                    
+                }
+            })
+        
+            })
+            
